@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Name Phòng Khám/ Đăng Nhập</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Nhập</title>
+    <link rel="stylesheet" href="dangnhap.css">
+</head>
+<body>
+    <div>
+        <link rel="stylesheet" href="trangchu_css.css">
+    <header class="header">
+        <div class="grid">
+            <nav class="header__navbar">
+            
+                <div class="logo">
+                    <img class="img_logo" src="logo.png" alt="ảnh logo"> 
+
+                </div>
+                
+                <ul class="header__navbar-list item_list" style="width: auto;font-size: 25px">
+                    <li class="header__navbar-item" > 
+                        <a href="index.html.html" " > Trang chủ </a>
+                    </li>
+                    <li class="header__navbar-item"> 
+                        <a href="trangcsyt(l5).html" " > Cơ sở y tế </a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="">Dịch vụ y tế</a>
+                        <ul class="menu_doc">
+                            <li><a href="datlichtiem.html">Đặt lịch tiêm</a> </li>
+                            <li><a href="Tranggoikham.html">Gói khám</a>  </li>
+                        </ul>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="Trang hướng dẫn (giới thiệu).html">Hướng dẫn</a>  </li>
+                    <li class="header__navbar-item">
+                        <a href="Trangtintuc.html" > Tin tức </a>    </li>
+                </ul>
+                <ul class="header__navbar-list header__navbar-box">
+                    <li class="header__navbar-item item_login">
+                        <a href="dangnhap-dangki.html" style="font-size: 25px;" > Đăng nhập </a>  </li>
+                </ul> 
+                
+            </nav>
+        </div>
+
+    </header>
+</div>
+<div class="content">
+<img src="https://th.bing.com/th/id/OIP.z2OpfxJjyyLIEFnSupjpJgAAAA?pid=ImgDet&w=467&h=508&rs=1">
+    <div class="formdangnhap">
+    <form id="myForm">
+
+        <div class="form-group">
+            <label for="email">Số điện thoại / Email</label>
+            <input type="text" id="email" name="email"
+            placeholder="Số điện thoại / Email">
+        </div>
+        <div class="form-group">
+            <label for="pwd">Mật khẩu</label>
+            <input type="password" id="pwd" name="pwd"
+            placeholder="Mật khẩu" >
+        </div>
+        <div class="btn">
+        <button type="submit" class="btn">Đăng nhập</button>
+    </div>
+    </form>
+    <div class="btn">
+        <a href="dangki.html"class="btn">Tạo tài khoản </a>
+    </div>
+</div>
+</div>
+<script>
+    document.getElementById('myForm').addEventListener('submit', function(event) {
+
+        event.preventDefault();
+        var email= document.getElementById('email').value;
+        var password = document.getElementById('pwd').value;
+         if(email===""){
+            alert('Vui lòng nhập email.');
+        }else if(password===""){
+            alert('Vui lòng nhập mật khẩu.');
+        }
+         else {
+            alert('Đăng nhập thành công .');
+            window.open("trangcanhan.html");
+        }
+    });
+</script>
+
+</body>
+</html>

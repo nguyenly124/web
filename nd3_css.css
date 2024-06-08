@@ -1,0 +1,45 @@
+a:hover{
+    color: bisque;
+}
+.nd3_nd{
+    display:flex; 
+    justify-content: space-around;
+    padding-top:50px ;
+    flex-wrap: wrap;
+    row-gap: 20px;
+
+}
+.nd3_nd_h{
+    display: list-item;
+    line-height: 46px;
+    width: 150px;
+    font-size: 1rem;
+    text-rendering: optimizeLegibility;
+}
+.styles_number__RxdTe{
+    padding-top: 30px;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    line-height: 46px;
+    text-align: center;
+}
+.styles_title__DNdDY{
+    
+    font-size: 30px;
+    font-weight: 500;
+    color: #ddedff;
+    line-height: 48px;
+    text-align: center;
+}
+/*nd4*/
+.nd4{
+    height: 800px;
+    width: 1350px;
+}
+.nd4_if{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

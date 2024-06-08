@@ -1,0 +1,91 @@
+header
+{
+	font-size:40px;
+	text-align:center;
+	padding:0px;
+	margin:0px;
+}
+.tieude
+{
+	height: 200px;
+    border: 0;
+    margin: 10px;
+    width: auto;
+    padding: 0px;
+    border-radius: 20px;
+    background-image:url(https://img.lovepik.com/photo/50078/3009.jpg_wh860.jpg);
+    background-size: cover;
+}
+article
+{
+  min-height:auto;
+  width:50%;
+  background:#ffffff;
+  float:left;
+}
+article h3
+{
+	color:#00BFFF;
+}
+.tuvan
+{
+	width: auto;
+	height:170px;
+    display:flex;
+    background:none;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 0px rgb(127, 241, 241);
+}
+.tuvan:hover
+{
+	background-color:#BFEFFF;
+}
+.s1 button
+{
+	color:White;
+	font-size:13px;
+	border-radius:15px;
+	transition-duration:0,4s;
+	width:100px;
+	height:35px;
+	border: none;
+	background:#00BFFF;
+	position: absolute;
+	right:53%;
+}
+.s1 button:hover
+{
+	background-color:#009ACD;
+	color:White;
+}
+.s2 button
+{
+	color:White;
+	font-size:13px;
+	border-radius:15px;
+	transition-duration:0,4s;
+	width:100px;
+	height:35px;
+	border: none;
+	background:#00BFFF;
+	position: absolute;
+	right:3%;
+}
+.s2 button:hover
+{
+	background-color:#009ACD;
+	color:White;
+}
+@media screen and (max-width: 1068px) 
+{
+	article
+	{
+		width: 100%;
+	}
+	.s1 button
+	{
+		right:3%;
+	}
+}

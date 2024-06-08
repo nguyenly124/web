@@ -1,0 +1,158 @@
+body {
+    font-family:'Times New Roman', Times, serif, sans-serif;
+    background: #f1f1f1;
+}
+h1 {font-size: 70px;
+    color:rgb(246, 246, 246);
+    text-align: center;
+}
+.tren {
+    height: 300px;
+    border: 0;
+    margin: 10px;
+    width: auto;
+    padding: 0px;
+    border-radius: 20px;
+    background-image:url(https://th.bing.com/th/id/R.b57bf03ad36caff99dbdbdf4bb5962cd?rik=jM%2bnjT7DvYe4zA&pid=ImgRaw&r=0);
+    background-size: cover;
+}
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.search-box {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 20px 20px 0;
+    font-size: 16px;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+.tong {
+    width:auto;
+    background-color: #f1f1f1;
+
+}
+.tong .datlichtiem:hover{
+    box-shadow: 4px 4px 0px rgb(121, 168, 244);
+}
+.anh img{
+    width: 120px;
+    height: auto;
+}
+.datlichtiem {
+    width: auto;
+    display:flex;
+    background:linear-gradient(to right,#add8e6, #cdffdc);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 0px rgb(127, 241, 241);
+}
+.search-container button:hover {
+    background-color: #2e1ae5;
+}
+.chinh {
+    display:flex;
+    word-wrap: break-word;
+    gap: 5px;
+    font-weight: 300px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #ff0000;
+    margin-bottom: 6px;
+ 
+}
+.nut button {
+    font-size: 16px;
+    padding: 10px;
+    position: absolute;
+            right: 600px;
+    background-color: #14bef0;
+    border:none;
+    border-radius: 20px;
+    color: white;
+    transition: border 0.5s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.nut button:hover{
+
+    background-color: #056ad6 ;
+    color:white;
+}
+article{
+    min-height:200px;
+    width:65%;
+    background:#f1f1f1;
+    float:left;
+}
+aside{
+    min-height:200px;
+    width:35%;
+    background:#f1f1f1;
+    float:left;
+}
+.slide 
+{
+  width: 100%;
+  height: 500px;
+  display: none;
+}
+#slideshow-container {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+  }
+.slide img 
+{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius:10px;
+}
+.borderphai{
+    position: -webkit-sticky;
+    position: sticky;
+    top:10px;
+    width: auto;
+    display:flex;
+    min-height: 500px;
+    margin: 10px  ;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+@media screen and (max-width: 1068px) {
+
+    aside{
+        display: none;
+    }
+    article{
+        width: 100%;
+    }
+    .chinh button {
+        position: absolute;
+                right: 50px;
+    }
+}

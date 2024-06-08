@@ -1,0 +1,169 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #00b5f1; /* Màu xanh blue nhẹ */
+    padding: 10px ;
+    background-image: url('anh11.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand .logo {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.navbar-text {
+    font-size: 30px;
+    font-weight: bold;
+    color: #0171f2;
+    align-items: center;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 20px;
+}
+
+.navbar-nav .nav-item a {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background 0.3s;
+}
+
+.navbar-nav .nav-item a:hover {
+    border: 2px solid #fff; /* Thêm viền trắng */
+}
+
+
+.payment-section {
+    padding: 20px 0;
+}
+
+.payment-form {
+    background-color: #f8f9fa; /* Màu nền của form thanh toán */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background: #00b5f1; /* Màu xanh blue nhẹ */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer-logo .logo {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.footer-nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-nav .footer-nav-item {
+    margin-left: 20px;
+}
+
+.footer-nav .footer-nav-item a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background 0.3s;
+}
+
+.footer-nav .footer-nav-item a:hover {
+    background: #555;
+}
+
+.footer-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Sửa kích thước ảnh anh9 */
+.bank-transfer-image {
+    width: 50%;
+    height: 50%;
+}

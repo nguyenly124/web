@@ -1,0 +1,106 @@
+.gt_1{
+    height: 40rem;
+    display: flex;
+    justify-content: space-around;
+}
+.gt_1_nd{
+    align-items: center;
+    text-align: center;
+    padding-left: 100px;
+    padding-top: 100px;
+    font-weight: 60px;
+    font-size: 30px;
+    line-height: 30px;
+    color: #1179ba;
+    
+}
+.gt_2{
+    height: 60rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+
+}
+.gt_2_nd{
+    width: 80rem;
+    font-size: 14px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.ant-row {
+        flex-flow: row wrap;
+        min-width: 0;
+        display: flex;
+    }
+.ant-row styles_pc__qKA5g{
+    margin-left: -10px;
+    margin-right: -10px; 
+    row-gap: 10px;
+    display: flex;
+   box-sizing: border-box;
+   
+}
+.gt_box{
+    align-items: center;
+    display: flex;
+    text-align:center;
+    color: #1da1f2;
+    
+}
+
+.dk_gt2{
+    display: flex;
+    width: 270px;
+    height: 200px;
+    justify-content: space-between;
+    padding-left: 10px; 
+    padding-right: 10px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.styles_introductDetail__9z7OX .styles_detailCulture__AeRnJ {
+    margin-top: 25px;
+    padding: 0 88px 50px;
+    border-radius: 20px;
+    background: #fff;
+    height: -moz-fit-content;
+    height: fit-content;
+    position: relative
+}
+.gt_3{
+    height: 25rem;
+    background-color:white;
+    border: 2px solid #1da1f2;
+    border-radius: 20px;
+    
+}
+.gt3_img{
+    box-sizing: border-box; 
+    border: none;
+     margin: auto; 
+    display: block;
+     width: 2px; 
+     height: auto; 
+     object-fit: contain;
+     height: 20px;
+}
+.gt3_nd{
+    width: 400px;
+    align-content: center;
+     
+}
+.gt3_nd_1{
+    width: 646px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding-left: 90px;
+    padding-right: 90px;
+    align-content: center;
+    font-size: 16px;
+    text-align:justify;
+    line-height: 20px;
+}
+

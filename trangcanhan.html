@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Trang cá nhân</title>
+    <link rel="stylesheet" href="dangnhap.css">
+</head>
+<body class="bodycn">
+    <div class="tren"><br>
+        <h1>Trang thông tin cá nhân </h1>
+        </div>
+    </div>
+    <div class="content">
+        <div class="formtrangcn">
+            <div class="formcn">
+                <form id="myformcn">
+                    <div class="form-group">
+                        <label for="name">Họ và tên</label>
+                        <input type="text" id="name" name="name" placeholder="Họ và tên">
+                    </div>
+                    <div class="form-group">
+                        <label for="std">Số điện thoại</label>
+                        <input type="text" id="std" name="std" placeholder="Số điện thoại">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="ngaysinh">Ngày sinh</label>
+                        <input type="date" id="ngaysinh" name="ngaysinh" placeholder="Ngày sinh">
+                    </div>
+                    <div>
+                        <label for="gt">Chọn giới tính</label>
+                        <input type="radio" name="gt" value="1"> Nam
+                        <input type="radio" name="gt" value="2"> Nữ
+                    </div><br>
+                    <div class="form-group">
+                        <label for="que">Quê quán</label>
+                        <input type="text" id="que" name="que" placeholder="Quê quán">
+                    </div>
+                    <div class="form-group">
+                        <label for="cccd">Số CCCD / CMND</label>
+                        <input type="text" id="cccd" name="cccd" placeholder="Số CCCD / CMND">
+                    </div>
+                    <div class="btn">
+                        <button type="submit">Lưu</button>
+                    </div>
+                </form>
+            </div>
+            <div class="lichsukham"> 
+                <h2>Lịch sử hẹn khám</h2><br>
+                <p>Ngày giờ :</p><br>
+                <p>Bác sĩ :</p><br>
+                <p> Chuẩn đoán :</p>
+            </div>
+        </div>
+    </div>
+<script>
+        document.getElementById('myformcn').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Lưu thành công.');
+        });
+    </script>
+</body>
+</html>

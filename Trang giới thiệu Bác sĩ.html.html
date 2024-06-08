@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+	<title>Doctor - blogsidebar-right</title>
+
+	<!-- Standard Favicon -->
+	<link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+	
+	<!-- For iPhone 4 Retina display: -->
+	<link rel="apple-touch-icon-precomposed" href="assets/images/apple-touch-icon-114x114-precomposed.png">
+	
+	<!-- For iPad: -->
+	<link rel="apple-touch-icon-precomposed" href="assets/images/apple-touch-icon-72x72-precomposed.html">
+	
+	<!-- For iPhone: -->
+	<link rel="apple-touch-icon-precomposed" href="assets/images/apple-touch-icon-57x57-precomposed.png">	
+	
+	<!-- Library - Google Font Familys -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Montserrat+Alternates:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Playfair+Display:400,400i,700,700i,900,900i|Poppins:300,400,500,600,700|Quattrocento:400,700|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+	
+	<link rel="stylesheet" type="text/css" href="assets/revolution/css/settings.css">
+	
+	<link rel="stylesheet" type="text/css" href="assets/revolution/fonts/font-awesome/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="assets/revolution/fonts/font-awesome/css/font-awesome.min.css">
+	
+	<!-- RS5.0 Layers and Navigation Styles -->
+	<link rel="stylesheet" type="text/css" href="assets/revolution/css/layers.css">
+	<link rel="stylesheet" type="text/css" href="assets/revolution/css/navigation.css">
+	
+	<!-- Library - Bootstrap v3.3.5 -->
+    <link href="assets/css/lib.css" rel="stylesheet">
+	
+	<link href="assets/js/slick/slick.css" rel="stylesheet">	
+    <link href="assets/js/slick/slick-theme.css" rel="stylesheet">
+	
+	<!-- Custom - Common CSS -->
+	<link href="assets/css/plugins.css" rel="stylesheet">
+	<link href="assets/css/elements.css" rel="stylesheet">
+	<link href="assets/css/rtl.css" rel="stylesheet">
+	<link id="color" href="assets/css/color-schemes/default.css" rel="stylesheet"/>
+	
+	<!-- Custom - Theme CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	
+	<!--[if lt IE 9]>
+		<script src="js/html5/respond.min.js"></script>
+    <![endif]-->
+	
+</head>
+
+<body data-offset="200" data-spy="scroll" data-target=".ow-navigation">
+<div class="boxed-container">
+	<!-- Loader -->
+	<!--div id="site-loader" class="load-complete">
+		<div class="loader">
+			<div class="loader-inner ball-clip-rotate">
+				<div></div>
+			</div>
+		</div>
+	</div--><!-- Loader /- -->
+		
+	<!-- Style Switcher -->
+	<div class="style-switcher" id="choose_style">
+		<a href="#." class="picker_close">
+			<i class="fa fa-gear fa-spin"></i>
+		</a>
+		<div class="style-picker">
+			<h3>Select Your Style</h3>
+			<div class="choose-switcher-box">
+				<p>Choose View Style</p>
+				<ul>
+					<li><a href="#." class="full-view" id="full_view"><img src="assets/images/full.png" alt="Full" /></a></li>
+					<li><a href="#." class="default-view" id="box_view"><img src="assets/images/boxed.png" alt="Boxed" /></a></li>
+				</ul>
+			</div>
+			<div class="color-switcher-block">
+				<p>Choose Colour style</p>
+				<ul>
+					<li><a href="#." class="skyblue" id="default"><img src="assets/images/skyblue.jpg" alt="skyblue"/></a></li>
+					<li><a href="#." class="green" id="green"><img src="assets/images/green.jpg" alt="green"/></a></li>
+					<li><a href="#." class="blue" id="blue"><img src="assets/images/blue.jpg" alt="blue"/></a></li>
+					<li><a href="#." class="coral" id="coral"><img src="assets/images/coral.jpg" alt="coral"/></a></li>
+					<li><a href="#." class="cyan" id="cyan"><img src="assets/images/cyan.jpg" alt="cyan"/></a></li>
+					<li><a href="#." class="eggplant" id="eggplant"><img src="assets/images/eggplant.jpg" alt="eggplant"/></a></li>
+					<li><a href="#." class="pink" id="pink"><img src="assets/images/pink.jpg" alt="pink"/></a></li>
+					<li><a href="#." class="slateblue" id="slateblue"><img src="assets/images/slateblue.jpg" alt="slateblue"/></a></li>
+					<li><a href="#." class="gold" id="gold"><img src="assets/images/gold.jpg" alt="gold"/></a></li>
+					<li><a href="#." class="red" id="red"><img src="assets/images/red.jpg" alt="red"/></a></li>
+				</ul>
+			</div>
+		</div>
+	</div><!-- Style Switcher /- -->
+
+	<!-- Header Default -->
+	<header class="header_s header_default">
+		<!-- Container -->
+		<div class="container">
+			<!-- Top Header -->
+			<div class="default-top row">
+				<div class="logo-block">
+					<a class="navbar-brand mobile-hide" href="index.html"><i class="fa fa-heartbeat"></i>Bác sĩ</a>
+				</div>
+				<a href="tel:386489550686" title="+386 489 550 686" class="phone-call"><i class="fa fa-phone-square"></i>+386 489 550 686</a>
+			</div><!-- Top Header /- -->
+		</div><!-- Container /- -->
+		<!-- Ownavigation -->
+		<nav class="navbar ownavigation nav_absolute">
+			<!-- Container -->
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand desktop-hide" href="#"><i class="fa fa-heartbeat"></i>Doctor</a>
+				</div>
+				<div class="navbar-collapse collapse" id="navbar">
+					<ul class="nav navbar-nav menubar">
+						
+						
+						
+						<li class="dropdown active">
+							<a href="#" class="dropdown-toggle" title="Blog" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GIỚI THIỆU VỀ BÁC SĨ</a>
+							<i class="ddl-switch fa fa-angle-down"></i>
+							
+						</li>
+						
+						</li>
+					</ul>
+				</div>
+			</div><!-- Container /- -->
+		</nav><!-- Ownavigation /- -->
+	</header><!-- Header Default /- -->
+		
+	<div class="main-container">
+		<main>
+			<!-- Page Banner -->
+			<div class="page-banner container-fluid no-left-padding no-right-padding">
+				<!-- Container -->
+				<div class="container">
+					<div class="page-banner-content">
+						<h3>GIỚI THIỆU VỀ BÁC SĨ</h3>
+					</div>
+					<div class="banner-content">
+						<ol class="breadcrumb">
+							<li><a href="index.html">Home</a></li>
+							<li class="active">GIỚI THIỆU VỀ BÁC SĨ</li>
+						</ol>
+					</div>
+				</div><!-- Container /- -->
+			</div><!-- Page Banner -->
+			
+			<!-- Blog Right Sidebar -->
+			<div class="latest-news blog-2column blog-right-sidebar container-fluid no-left-padding no-right-padding">
+				<!-- Container -->
+				<div class="container">
+					<!-- Row -->
+					<div class="row">
+						<!-- Content Area -->
+						<div class="content-area col-md-8 col-sm-8 col-xs-12">
+							<div class="type-post">
+								<div class="entry-cover">
+									<a title="Blog" href="#">
+										<img alt="blog" src="assets/images/blog-9.jpg" />
+									</a>
+									<div class="post-date-bg">
+										<div class="post-date">
+											18 <span>June</span>
+										</div>
+									</div>
+								</div>
+								<div class="latest-news-content">
+									<div class="entry-header">
+										<h3 class="entry-title"><a title="Using the latest medical technology" href="#">Đội ngũ y tế hàng đầu</a></h3>
+										<div class="entry-meta">
+											<div class="byline"><a href="#" title="adminol"><i class="fa fa-user-o"></i>bởi quản trị viên</a></div>
+											<div class="post-time"><a href="#" title="10 minutes ago"><i class="fa fa-clock-o"></i>10 phút trước</a></div>
+											<div class="post-comment"><a href="#" title="4 Comments"><i class="fa fa-commenting-o"></i>4 bình luận</a></div>
+										</div>
+									</div>
+									<div class="entry-content">
+										<p>Lorem Ipsum chỉ đơn giản là văn bản giả của ngành in ấn và sắp chữ. Lorem Ipsum đã trở thành tiêu chuẩn của ngành.</p>
+									</div>
+									<a href="#" title="Read More" class="read-more">Đọc thêm</a>
+								</div>
+							</div>
+							
+							<div class="type-post">
+								<div class="entry-cover">
+									<a title="Blog" href="#">
+										<img alt="blog" src="assets/images/blog-10.jpg" />
+									</a>
+									<div class="post-date-bg">
+										<div class="post-date">
+											18 <span>June</span>
+										</div>
+									</div>
+								</div>
+								<div class="latest-news-content">
+									<div class="entry-header">
+										<h3 class="entry-title"><a title="Using the latest medical technology" href="#">Cơ sở vật chất hàng đầu</a></h3>
+										<div class="entry-meta">
+											<div class="byline"><a href="#" title="adminol"><i class="fa fa-user-o"></i>bởi quản trị viên</a></div>
+											<div class="post-time"><a href="#" title="10 minutes ago"><i class="fa fa-clock-o"></i>10 phút trước</a></div>
+											<div class="post-comment"><a href="#" title="4 Comments"><i class="fa fa-commenting-o"></i>4 bình luận</a></div>
+										</div>
+									</div>
+									<div class="entry-content">
+										<p>LLorem Ipsum chỉ đơn giản là văn bản giả của ngành in ấn và sắp chữ. Lorem Ipsum đã trở thành tiêu chuẩn của ngành.</p>
+									</div>
+									<a href="#" title="Read More" class="read-more">Đọc thêm</a>
+								</div>
+							</div>
+							
+							<div class="type-post">
+								<div class="entry-cover">
+									<a title="Blog" href="#">
+										<img alt="blog" src="assets/images/blog-11.jpg" />
+									</a>
+									<div class="post-date-bg">
+										<div class="post-date">
+											18 <span>June</span>
+										</div>
+									</div>
+								</div>
+								<div class="latest-news-content">
+									<div class="entry-header">
+										<h3 class="entry-title"><a title="Using the latest medical technology" href="#">Đội ngũ y tế tay nghê cao,rất cao</a></h3>
+										<div class="entry-meta">
+											<div class="byline"><a href="#" title="adminol"><i class="fa fa-user-o"></i>bởi quản trị viên</a></div>
+											<div class="post-time"><a href="#" title="10 minutes ago"><i class="fa fa-clock-o"></i>10 phút trước</a></div>
+											<div class="post-comment"><a href="#" title="4 Comments"><i class="fa fa-commenting-o"></i>4 bình luận</a></div>
+										</div>
+									</div>
+									<div class="entry-content">
+										<p>Lorem Ipsum chỉ đơn giản là văn bản giả của ngành in ấn và sắp chữ. Lorem Ipsum đã trở thành tiêu chuẩn của ngành.</p>
+									</div>
+									<a href="#" title="Read More" class="read-more">Đọc thêm</a>
+								</div>
+							</div>
+							
+							<div class="type-post">
+								<div class="entry-cover">
+									<a title="Blog" href="#">
+										<img alt="blog" src="assets/images/blog-12.jpg" />
+									</a>
+									<div class="post-date-bg">
+										<div class="post-date">
+											18 <span>June</span>
+										</div>
+									</div>
+								</div>
+								<div class="latest-news-content">
+									<div class="entry-header">
+										<h3 class="entry-title"><a title="Using the latest medical technology" href="#">Thiết bị hiện đại ,tiên tiến</a></h3>
+										<div class="entry-meta">
+											<div class="byline"><a href="#" title="adminol"><i class="fa fa-user-o"></i>bởi quản trị viên</a></div>
+											<div class="post-time"><a href="#" title="10 minutes ago"><i class="fa fa-clock-o"></i>10 phút trước</a></div>
+											<div class="post-comment"><a href="#" title="4 Comments"><i class="fa fa-commenting-o"></i>4 bình luận</a></div>
+										</div>
+									</div>
+									<div class="entry-content">
+										<p>Lorem Ipsum chỉ đơn giản là văn bản giả của ngành in ấn và sắp chữ. Lorem Ipsum đã trở thành tiêu chuẩn của ngành.</p>
+									</div>
+									<a href="#" title="Read More" class="read-more">Đọc thêm</a>
+								</div>
+							</div>
+							
+							<div class="type-post">
+								<div class="entry-cover">
+									<a title="Blog" href="#">
+										<img alt="blog" src="assets/images/blog-13.jpg" />
+									</a>
+									<div class="post-date-bg">
+										<div class="post-date">
+											18 <span>June</span>
+										</div>
+									</div>
+								</div>
+								<div class="latest-news-content">
+									<div class="entry-header">
+										<h3 class="entry-title"><a title="Using the latest medical technology" href="#">Đội ngũ y khoa phẫu thuật top đầu cả nước</a></h3>
+										<div class="entry-meta">
+											<div class="byline"><a href="#" title="adminol"><i class="fa fa-user-o"></i>bởi quản trị viên</a></div>
+											<div class="post-time"><a href="#" title="10 minutes ago"><i class="fa fa-clock-o"></i>10 phút trước</a></div>
+											<div class="post-comment"><a href="#" title="4 Comments"><i class="fa fa-commenting-o"></i>4 bình luận</a></div>
+										</div>
+									</div>
+									<div class="entry-content">
+										<p>Lorem Ipsum chỉ đơn giản là văn bản giả của ngành in ấn và sắp chữ. Lorem Ipsum đã trở thành tiêu chuẩn của ngành.</p>
+									</div>
+									<a href="#" title="Read More" class="read-more">Đọc thêm</a>
+								</div>
+							</div>
+							
+							<div class="type-post">
+								<div class="entry-cover">
+									<a title="Blog" href="#">
+										<img alt="blog" src="assets/images/blog-14.jpg" />
+									</a>
+									<div class="post-date-bg">
+										<div class="post-date">
+											18 <span>June</span>
+										</div>
+									</div>
+								</div>
+								<div class="latest-news-content">
+									<div class="entry-header">
+										<h3 class="entry-title"><a title="Using the latest medical technology" href="#">Chăm sóc hướng dẫn tận tình bệnh nhân</a></h3>
+										<div class="entry-meta">
+											<div class="byline"><a href="#" title="adminol"><i class="fa fa-user-o"></i>bởi quản trị viên</a></div>
+											<div class="post-time"><a href="#" title="10 minutes ago"><i class="fa fa-clock-o"></i>10 phút trước</a></div>
+											<div class="post-comment"><a href="#" title="4 Comments"><i class="fa fa-commenting-o"></i>4 bình luận</a></div>
+										</div>
+									</div>
+									<div class="entry-content">
+										<p>Lorem Ipsum chỉ đơn giản là văn bản giả của ngành in ấn và sắp chữ. Lorem Ipsum đã trở thành tiêu chuẩn của ngành.</p>
+									</div>
+									<a href="#" title="Read More" class="read-more">Đọc thêm</a>
+								</div>
+							</div>
+						</div><!-- Content Area /- -->
+						<!-- Widget Area -->
+						<div class="widget-area col-md-4 col-sm-4 col-xs-12">
+							<!-- Widget Search -->
+							<aside id="search" class="widget widget_search">
+								<h3 class="widget-title">Tìm kiếm</h3>
+								<form method="get" class="searchform" action="#">
+									<div class="input-group">
+										<input type="text" class="form-control" placeholder="Search Here . . . ">
+										<span class="input-group-btn">
+											<button class="btn btn-search" title="Search" type="button"><i class="fa fa-search"></i></button>
+										</span>
+									</div>
+								</form>
+							</aside><!-- Widget Search /- -->
+							<!-- Widget Latest Posts -->
+							<aside id="widget_latestposts" class="widget widget_latestposts">
+								<div class="latest-detail-tab">
+									<!-- Nav tabs -->
+									<ul class="nav nav-tabs wc-tabs" role="tablist">
+										<li role="presentation" class="active"><a href="#popular" role="tab" data-toggle="tab">Phổ biến</a></li>
+										<li role="presentation"><a href="#recent" role="tab" data-toggle="tab">Gần đây</a></li>
+									</ul>
+									<!-- Tab panes -->
+									<div class="tab-content">
+										<div role="tabpanel" class="tab-pane active" id="popular">
+											<div class="latest-content">
+												<a href="#"><i><img src="assets/images/latest-post-1.jpg" alt="Post"></i></a>
+												<h5><a href="#" title="Improving and Removing Envato Market Image Watermarking">Nâng cấp hệ thống,chương trình chăm sóc tại trung tâm</a></h5>
+												<span><a href="#" title="Date"><i class="fa fa-calendar-o"></i>Ngày 06 tháng 2 năm 2024</a></span>
+											</div>
+											
+											<div class="latest-content">
+												<a href="#"><i><img src="assets/images/latest-post-2.jpg" alt="Post"></i></a>
+												<h5><a href="#" title="Improving and Removing Envato Market Image Watermarking">Cải thiện và loại bỏ bệnh tại khoa răng hàm mặt</a></h5>
+												<span><a href="#" title="Date"><i class="fa fa-calendar-o"></i>Ngày 06 tháng 2 năm 2024</a></span>
+											</div>
+											
+											<div class="latest-content">
+												<a href="#"><i><img src="assets/images/latest-post-3.jpg" alt="Post"></i></a>
+												<h5><a href="#" title="Improving and Removing Envato Market Image Watermarking">Bác sĩ và nụ cười trẻ thơ.</a></h5>
+												<span><a href="#" title="Date"><i class="fa fa-calendar-o"></i>Ngày 06 tháng 2 năm 2024</a></span>
+											</div>
+										</div>
+										
+										
+						

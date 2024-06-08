@@ -1,0 +1,159 @@
+body {
+    font-family:'Times New Roman', Times, serif, sans-serif;
+    background: #ffffff;
+}
+h1 {font-size: 60px;
+    text-align: center;
+}
+.tonganhcn {
+    justify-content: left;
+    display: flex;
+}
+h2{
+    font-size: 32px;
+    text-align: center;
+}
+.anh-cn {
+    background-color: #fff;
+    width: auto;
+    margin: 5px;
+    padding: 10px;
+    justify-content: center;
+    display: grid;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.anh-cn input[type="file"] {
+    display: none;
+}
+.anh-cn label {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 2px;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+.formtrangcn {
+    width: 95%;
+    display:flex;
+    background:linear-gradient(to right,#add8e6, #cdffdc);
+    justify-content: space-between;
+    margin: 10px ;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} 
+.formcn,
+.lichsukham{
+    width: 48%;
+}
+.lichsukham p{
+    font-size: 18px;
+}
+.anh-cn img {
+    margin-top: 10px;
+    width: 120px;
+    height: 160px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+.tren {
+    color: #333333;
+    height: 200px;
+    border: 0;
+    margin: 10px;
+    width: auto;
+    padding: 0px;
+    border-radius: 20px;
+    background-image:url(https://png.pngtree.com/background/20210710/original/pngtree-medical-security-technology-sense-blue-banner-picture-image_1002464.jpg);
+    background-size: cover;
+}
+.content img {
+    width: 484px;
+    text-align: justify;
+}
+.formdangnhap {
+    width: 400px;
+    margin: 80px;
+    padding: 20px;
+    background:linear-gradient(to right,#9ee1f8, #bbfffa);
+    border: 1px solid #e2e0e0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.bordercn {
+    display: inline;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 4px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input {
+    width: 94%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.btn button {
+    font-size: 16px;
+    width: 97%;
+    padding: 10px;
+    background-color: #14bef0;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+}
+.form-group label{
+    font-size: 18px;
+}
+.btn a {
+    width: 95%;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    border-radius: 4px;
+    color: rgb(11, 10, 10);
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+}
+.btn button:hover {
+    background-color: #0079e9;
+}
+@media screen and (max-width: 768px) {
+    .content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .formtrangcn {
+        width: 85%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .formcn,
+    .lichsukham {
+        width: 95%;
+    }
+    .formdangnhap {
+        margin-top: 20px;
+    }
+    img {
+        display: none;
+    }
+}

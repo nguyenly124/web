@@ -1,0 +1,249 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #00b5f1; /* Màu xanh blue nhẹ */
+    padding: 10px ;
+    background-image: url('anh11.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 20px;
+    height: 200px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand .logo {
+    height: 100px;
+    margin-right: 10px;
+}
+
+.navbar-text {
+    font-size: 39px;
+    font-weight: bold;
+    color: #1da1f2;
+}
+
+.navbar-nav {
+    height: 100px;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 20px;
+    padding-top: 70px;
+}
+
+.navbar-nav .nav-item a {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    transition: background 0.3s;
+    
+}
+
+.navbar-nav .nav-item a:hover {
+    border: 2px solid #fff; /* Thêm viền trắng */
+}
+
+.search-section, .results-section {
+    padding: 20px 0;
+    background: #fff;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(22, 74, 228, 0.1);
+}
+
+.search-section h2, .results-section h2 {
+    text-align: center;
+}
+
+.search-section input[type="text"], .search-section select {
+    width: 30%;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.search-section button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-section button:hover {
+    background: #03a8f4;
+}
+
+.results-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.result-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+.result-item .info {
+    flex-grow: 1;
+    margin-right: 20px;
+}
+
+.result-item .actions {
+    display: flex;
+    flex-direction: column;
+}
+
+.result-item button {
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.result-item .details-button {
+    background: #5bc0de;
+    color: #fff;
+}
+
+.result-item .book-button {
+    background: #5cb85c;
+    color: #fff;
+}
+
+.result-item button:hover {
+    opacity: 0.8;
+}
+
+footer {
+    background: #00b5f1; /* Màu xanh blue nhẹ */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer-logo .logo {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.footer-nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-nav .footer-nav-item {
+    margin-left: 20px;
+}
+
+.footer-nav .footer-nav-item a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background 0.3s;
+}
+
+.footer-nav .footer-nav-item a:hover {
+    background: #555;
+}
+
+.footer-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Styling for the details panel */
+.details-panel {
+    position: fixed; /* Fixed position on the right side of the screen */
+    right: 0;
+    top: 0;
+    width: 30%; /* Width of the details panel */
+    height: 100%; /* Full height */
+    background: #f4f4f4; /* Light gray background */
+    box-shadow: -2px 0 5px rgba(0,0,0,0.1); /* Shadow for 3D effect */
+    padding: 20px; /* Padding inside the details panel */
+    overflow-y: auto; /* Enable scrolling if content is too long */
+    transition: transform 0.3s ease; /* Smooth transition for sliding in and out */
+    transform: translateX(100%); /* Start hidden to the right */
+}
+
+/* Styling to show the details panel */
+.show-details-panel {
+    transform: translateX(0); /* Move into view */
+}
+
+/* Styling for the close button */
+.close-details-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    background: #ff4444;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.result-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.details-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,137 @@
+header
+{
+	font-size:30px;
+	text-align:center;
+	padding:0px;
+	margin:0px;
+}
+article{
+  min-height:auto;
+  width:55%;
+  background:#ffffff;
+  float:left;
+}
+aside{
+  min-height:2000px;
+  width:44%;
+  background:#ffffff;
+  float:right;
+}
+.tieude
+{
+	height: 250px;
+    border: 0;
+    margin: 10px;
+    width: auto;
+    padding: 0px;
+    border-radius: 20px;
+    background-image:url(https://png.pngtree.com/background/20210710/original/pngtree-medical-security-technology-sense-blue-banner-picture-image_1002464.jpg);
+    background-size: cover;
+}
+.goikham
+{
+	width: auto;
+    display:flex;
+    background:linear-gradient(to right,#add8e6, #cdffdc);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 0px rgb(127, 241, 241);
+}
+.s1 button
+{
+	color:White;
+	font-size:13px;
+	border-radius:15px;
+	transition-duration:0,4s;
+	width:100px;
+	height:35px;
+	border: none;
+	background:#00BFFF;
+	position: absolute;
+	right:48%;
+}
+.s1 button:hover
+{
+	background-color:#99FFFF;
+	color:White;
+}
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	margin-top: 50px;
+}
+.search-box {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 20px 20px 0;
+    font-size: 16px;
+}
+#slideshow-container {
+  width: 100%;
+  height:100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide 
+{
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.slide img 
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius:10px;
+}
+.active 
+{
+  display: block;
+}
+.borderphai{
+    position: -webkit-sticky;
+    position: sticky;
+    top:10px;
+    width: auto;
+    display:flex;
+    min-height: 500px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.tong {
+  width:auto;
+  background-color: #f1f1f1;
+
+}
+.tong.goikham:hover{
+  box-shadow: 4px 4px 0px rgb(121, 168, 244);
+}
+@media screen and (max-width: 1068px) 
+{
+  aside{
+    display: none;
+}
+article{
+    width: 100%;
+}
+	.s1 button
+	{
+		right:5%;
+	}
+}
